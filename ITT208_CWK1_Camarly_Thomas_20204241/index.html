@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>VISIT JAMAICA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link 
+            href="css/style.css"
+            rel="stylesheet"
+            />
+    </head>
+    <body>
+        <section class="view">
+            <header>
+               <h1 class="JTB-logo">Jamaica</a></h1>
+                <div class="toggleChanges"></div>
+            </header>
+            <video src="resources/video1.mp4" muted loop autoplay ></video>
+            <div class="videoOverlay"></div>
+            <div class="text">
+                <h2>VISIT JAMAICA</h2>
+                <h3>and experience tropical bliss</h3>
+                <a href="resorts.html">Explore JAMAICA</a>
+                <a href="jamaicans.html">Experience JAMAICA</a>
+                <a href="jabout.html">About US</a>
+            </div>
+            <ul class="socialMedia">
+                <li>
+                    <a href="https://www.youtube.com/visitjamaicaofficial">
+                        <img src="resources/youtube.ico" alt="JTB's Youtube page">
+                    </a>
+                </li>
+<!--                <img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="JTB's Youtube page">-->
+                <li>
+                    <a href="https://www.facebook.com/visitjamaica">
+                        <img src="https://i.ibb.co/x7P24fL/facebook.png" alt="JTB's facebook page">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/visitjamaica">
+                        <img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="JTB's Twitter account">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/visitjamaica">
+                        <img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="JTB's Istragram account">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="burgerMenu">
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="contactus.html">Contact Us</a></li>
+                        <li><a href="bookings.html">Bookings</a></li>
+                        <li> <a href="resorts.html">Resorts and Attractions</a></li>
+                        <li><a href="jamaicans.html">Jamaica</a></li>
+                        <li> <a href="privacytc.html">Privacy and Terms</a></li>
+                    </ul>
+        </div>
+        <script>
+            const burgerMenuToggle = document.querySelector('.toggleChanges')
+            const view = document.querySelector('.view')
+
+            burgerMenuToggle.addEventListener('click', () => {
+                burgerMenuToggle.classList.toggle('active')
+                view.classList.toggle('active')
+            })
+
+        </script>
+    </body>
+</html>

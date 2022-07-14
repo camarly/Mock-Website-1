@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <title>Jamaica Tourist Board</title>
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    
+    <body>
+        <section class="view">
+            <header>
+                <div logo>
+                    <h1 class="JTB-logo">Jamaica</h1>
+                </div>
+                <div class="toggleChanges"></div>
+            </header>
+            <div class="contactUS">
+                <div class="companyProfile">
+                    <h2>"LINK Wi"</h2>
+                        <ul>
+                            <li>The Jamaica Tourist Board</li>
+                            <li>64 Knutsford Boulevard</li>
+                            <li>Kingston 5, Jamaica W.I</li>
+                            <li>(876) 920-4926-30</li>
+                        </ul>
+                </div>
+                <div class="contactForm">
+                    <h3>Query - Contact Request Form</h3>
+                    <form>
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="">
+                        </p>
+                        <p>
+                            <label>email address</label>
+                            <input type="text" name="name" id="">
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="name" id="">
+                        </p>
+                        <p>
+                            <label>Subject</label>
+                            <input type="text" name="name" id="">
+                        </p>
+                        <p class="stretch">
+                            <label>Message</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </p>
+                        <p class="stretch">
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <video src="resources/video3.mp4" muted loop autoplay ></video>
+            <div class="videoOverlay"></div>
+
+            <ul class="socialMedia">
+                <li>
+                    <a href="https://www.youtube.com/visitjamaicaofficial">
+                        <img src="resources/youtube.ico" alt="JTB's Youtube page">
+                    </a>
+                </li>
+<!--                <img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="JTB's Youtube page">-->
+                <li>
+                    <a href="https://www.facebook.com/visitjamaica">
+                        <img src="https://i.ibb.co/x7P24fL/facebook.png" alt="JTB's facebook page">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/visitjamaica">
+                        <img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="JTB's Twitter account">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/visitjamaica">
+                        <img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="JTB's Istragram account">
+                    </a>
+                </li>
+            </ul>
+            <div class="page2"></div>
+            <div class="page2"></div>
+            <div class="page2"></div>
+        </section>
+        <div class="burgerMenu">
+            <nav>
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="contactus.html">Contact Us</a></li>
+                        <li><a href="bookings.html">Bookings</a></li>
+                        <li> <a href="resorts.html">Resorts and Attractions</a></li>
+                        <li><a href="jamaicans.html">Jamaica</a></li>
+                        <li> <a href="privacytc.html">Privacy and Terms</a></li>
+                    </ul>
+            </nav>
+        </div>
+        <script> src="https://unkpg.com/boxicons@latest/dist/boxicons.js"</script>
+        <script>
+            const burgerMenuToggle = document.querySelector('.toggleChanges')
+            const view = document.querySelector('.view')
+
+            burgerMenuToggle.addEventListener('click', () => {
+                burgerMenuToggle.classList.toggle('active')
+                view.classList.toggle('active')
+            })
+
+        </script>
+    </body>
+</html>
